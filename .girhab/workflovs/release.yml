@@ -1,3 +1,12 @@
+name: 'C++ CI'
+
+on:
+  push:
+    branches:
+      - main
+      - feature/github_actions
+
+
 language: cpp
 compiler: gcc
 dist: trusty
